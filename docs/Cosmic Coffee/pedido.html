@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>Pedido COSMIC COFFEE</title>
+</head>
+<body>
+<nav class="navbar">
+    <!-- enlaces / links -->
+    <img src="./Cosmic-coffee logo.jpg" alt="logo cosmic coffee" height="auto" width="200">
+    <a href="./Workprogress.html">HOME</a>
+    <a href="index.html"target="blank">MENU</a>
+    <a href="./pedido.html">PEDIDO</a>
+    <a href="./Workprogress.html">CONTACTO</a>
+    <a href="./Workprogress.html">TIENDAS</a>
+</nav>
+<main class="main">
+    <h1>PAGINA DE PEDIDO COSMIC COFFEE</h1>
+    <form action="pedido.js">
+        <label for="Nombre">Escribe tu nombre</label><br>
+        <input type="text" placeholder="Nombre"><br>
+
+        <label for="tel">Escribe tu numero telefonico</label><br>
+        <input type="number" name="tel" id="tel" maxlength="10" placeholder="Telefono">
+
+        <p>Para aqui o para llevar?</p>
+        <label for="aqui">Aqui</label>
+        <input type="radio" id="aqui" name="aquillevar" value="aqui">
+        <label for="Llevar">Llevar</label>
+        <input type="radio" id="llevar" name="aquillevar" value="llevar">
+
+        <p>Elige los productos</p>
+        <input type="checkbox" name="Espacialexpress" id="Espacialexpress" value="Espacialexpress">
+        <label for="Espacialexpress">Espacial express</label>
+        <input type="number" id="cuantosEx" name="cuantosEx" placeholder="Cuantos?">
+<br>
+        <input type="checkbox" name="Astroccino" id="Astroccino" value="Astroccino">
+        <label for="Astroccino">Astroccino</label>
+        <input type="number" id="cuantosAs" name="cuantosAs" placeholder="Cuantos?">
+        <br>
+        <p>Para comer (uno por pedido)</p>
+        <select name="Para comer" id="Para comer">
+            <option value="Holley">Holley</option>
+            <option value="Satelite">Satelite</option>
+            <option value="Panque de platano">Panque de platano</option>
+            <option value="Pay de limon">Pay de limon</option>
+        </select>
+
+        <input type="reset">
+        <input type="submit" name="enviar" id="enviar">
+    </form>
+</main><br><hr><br>
+<footer class="footer">
+    <p>Siguenos en instagram @Cosmic_Coffee</p><br>
+    <p>Dudas, comentarios  Cosmic_Coffee@gmail.com</p><br>
+    <p>Nos encuentras en planeta Jupiter 22th colonia </p>
+</footer>
+</body>
+</html>
